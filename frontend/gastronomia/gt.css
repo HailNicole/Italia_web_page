@@ -1,0 +1,29 @@
+.articulo{
+    margin: auto;
+}
+
+.container-art{
+    padding: 15px;
+    margin: auto;
+    max-width: 1180px;
+}
+
+.container-art h1, h2, h3{
+    text-align: left;
+    padding: 8px;
+}
+
+.imagen{
+    max-width: 1200px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.contenido-art{
+    margin: auto;
+    padding: 2rem;
+    text-align: justify;
+    color: #FFFF;
+    font-size: 25px;
+}
