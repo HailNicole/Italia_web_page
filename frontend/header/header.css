@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffff;
+    gap: 5rem;
+}
+
+.logo{
+    color: #ffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo img{
+    border-radius: 10px;
+    box-shadow: 
+    0px 4px 8px rgba(0, 0, 0, 0.1), /* Primera sombra */
+    0px 8px 16px rgba(0, 0, 0, 0.2); /* Segunda sombra */
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+}
+
+.menu .navbar ul li a:hover {
+    color: #266371;
+}
+
+.nav-icons {
+    display: flex;
+}
+
+.nav-icons i {
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.nav-icons i::hover {
+    color: #266371;
+}
+
+#menu{
+    display: none;
+}
+.menu-icono {
+    width: 25px;
+  }
+  
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.logo img{
+    width: 30%;
+}
+
+img{
+    width: 100%;
+}

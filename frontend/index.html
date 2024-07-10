@@ -12,30 +12,32 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
-    <header class="header">
-        <div class="menu container">
-            <div class="logo">
-                <a href="./index.html"><img src="./assets/logo.jpg" alt="bandera de italia" width="25px"></a>
+    <div class="container-index">
+        <header class="header">
+            <div class="menu container">
+                <div class="logo">
+                    <a href="./index.html"><img src="./assets/logo.jpg" alt="bandera de italia" width="25px"></a>
+                </div>
+                <input type="checkbox" id="menu" />
+                <label for="menu">
+                    <img src="./assets/menu.png" class="menu-icono" alt="" />
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#">Lugares Turísticos</a></li>
+                        <li><a href="#">Gatronomia</a></li>
+                        <li><a href="#">Arte</a></li>
+                        <li><a href="./form/formulario.html">Cuestionario</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-icons">
+                    <a href="https://www.facebook.com/?locale=es_LA"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.whatsapp.com/?lang=es_LA"><i class="bi bi-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/madelin-constante-a80ab32b6"><i class="bi bi-linkedin"></i></a>
+                </div>
             </div>
-            <input type="checkbox" id="menu" />
-            <label for="menu">
-                <img src="./assets/menu.png" class="menu-icono" alt="" />
-            </label>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#">Lugares Turísticos</a></li>
-                    <li><a href="#">Gatronomia</a></li>
-                    <li><a href="#">Arte</a></li>
-                    <li><a href="./form/formulario.html">Cuestionario</a></li>
-                </ul>
-            </nav>
-            <div class="nav-icons">
-                <a href="https://www.facebook.com/?locale=es_LA"><i class="bi bi-facebook"></i></a>
-                <a href="https://www.whatsapp.com/?lang=es_LA"><i class="bi bi-whatsapp"></i></a>
-                <a href="https://www.linkedin.com/in/madelin-constante-a80ab32b6"><i class="bi bi-linkedin"></i></a>
-            </div>
-        </div>
-        <div class="header-contend container">
+        </header>
+        <div class="main-content container">
             <div class="header-text">
                 <h1>Benvenuto in Italia</h1>
                 <p>
@@ -75,8 +77,8 @@
           <div class="rows">
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
-          </div>
-    </header>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./swiper.js"></script>
 </body>

@@ -5,6 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
     margin: 0 auto;
 }
 
-.header {
+.container-index {
     background-image: url(./assets/backgorund_imagen.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -27,7 +28,7 @@ body {
     align-items: center;
 }
 
-.header::before {
+.container-index::before {
     content: '';
     position: absolute;
     top: 0;
@@ -38,6 +39,11 @@ body {
     pointer-events: none;
 }
 
+.header{
+    display: flex;
+    align-items: center;
+}
+
 .menu {
     position: absolute;
     top: 0;
@@ -46,6 +52,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #ffff;
 }
 
 .logo{
@@ -67,7 +74,7 @@ body {
 }
 
 .menu .navbar ul li a {
-    font-size: 18px;
+    font-size: 20px;
     padding: 20px;
     color: #FFFFFF;
     display: block;
@@ -244,13 +251,13 @@ img{
     .icons {
         display: none;
     }
-    .header {
+    .container-index {
         padding: 80px 30px 50px 30px;
         align-items: self-start;
         flex-direction: column;
         align-items: center;
     }
-    header-text {
+    .header-text {
         text-align: center;
         width: 100%;
         margin-bottom: 30px;
