@@ -22,7 +22,7 @@
                 </label>
                 <nav class="navbar">
                     <ul>
-                        <li><a href="#">Lugares Turísticos</a></li>
+                        <li><a href="../lugares/lugares.html">Lugares Turísticos</a></li>
                         <li><a href="../gastronomia/gastro.html">Gatronomia</a></li>
                         <li><a href="./arte.html">Arte</a></li>
                         <li><a href="../form/formulario.html">Cuestionario</a></li>
@@ -40,28 +40,28 @@
                 <section class="rotate-images">
                     <div class="image-container">
                         <span style="--i: 1">
-                            <img src="../assets/art1.jpg" alt="La creación de Adán">
+                            <img src="../assets/art1.jpg" alt="La creación de Adán" loading="lazy">
                         </span>
                         <span style="--i: 2">
-                            <img src="../assets/art2.jpg" alt="La creación de Adán">
+                            <img src="../assets/art2.jpg" alt="Arte Italiano" loading="lazy">
                         </span>
                         <span style="--i: 3">
-                            <img src="../assets/art3.jpg" alt="La creación de Adán">
+                            <img src="../assets/art3.jpg" alt="Cinema Paradiso" loading="lazy">
                         </span>
                         <span style="--i: 4">
-                            <img src="../assets/art4.jpg" alt="La creación de Adán">
+                            <img src="../assets/art4.jpg" alt="La dolce vita" loading="lazy">
                         </span>
                         <span style="--i: 5">
-                            <img src="../assets/art5.jpg" alt="La creación de Adán">
+                            <img src="../assets/art5.jpg" alt="Ennio Morricone" loading="lazy">
                         </span>
                         <span style="--i: 6">
-                            <img src="../assets/art6.jpg" alt="La creación de Adán">
+                            <img src="../assets/art6.jpg" alt="Poster de películas" loading="lazy">
                         </span>
                         <span style="--i: 7">
-                            <img src="../assets/art7.jpg" alt="La creación de Adán">
+                            <img src="../assets/art7.jpg" alt="Las cúpulas de Emilia" loading="lazy">
                         </span>
                         <span style="--i: 8">
-                            <img src="../assets/art8.jpg" alt="La creación de Adán">
+                            <img src="../assets/art8.jpg" alt="Cinma Paradiso Poster" loading="lazy">
                         </span>
                     </div>
                     <div class="btn-container">
@@ -76,7 +76,7 @@
                         <div class="item-1">
                             <div class="column-1">
                                 <div class="img-left">
-                                    <img src="../assets/art1.jpg">
+                                    <img src="../assets/art1.jpg" loading="lazy">
                                 </div>
                             </div>
                             <div class="column-2">
@@ -137,7 +137,7 @@
                             </div>
                             <div class="column-1">
                                 <div class="img-right">
-                                    <img src="../assets/art7.jpg">
+                                    <img src="../assets/art7.jpg" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -148,7 +148,7 @@
                         <div class="item-1">
                             <div class="column-1">
                                 <div class="img-left">
-                                    <img src="../assets/art3.jpg">
+                                    <img src="../assets/art3.jpg" loading="lazy">
                                 </div>
                             </div>
                             <div class="column-2">
@@ -204,7 +204,7 @@
                             </div>
                             <div class="column-1">
                                 <div class="img-right">
-                                    <img src="../assets/art4.jpg">
+                                    <img src="../assets/art4.jpg" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -215,7 +215,7 @@
                         <div class="item-1">
                             <div class="column-1">
                                 <div class="img-left">
-                                    <img src="../assets/art5.jpg">
+                                    <img src="../assets/art5.jpg" loading="lazy">
                                 </div>
                             </div>
                             <div class="column-2">
@@ -264,16 +264,17 @@
                             </div>
                             <div class="column-1">
                                 <div class="img-right">
-                                    <img src="../assets/art6.jpg">
+                                    <img src="../assets/art6.jpg" loading="lazy">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+                <h1 class="titulo-arte-musical">Arte Musical</h1>
                 <section class="videos-popout">
                     <div class="videos-container">
                         <div class="main-videos-container">
-                            <img src="../assets/vid_img.jpg" alt="italia-imagen"/>
+                            <img src="../assets/vid_img.jpg" alt="italia-imagen" loading="lazy"/>
                             <h1>The Good, the bad and the ugly, Orchestra</h1>
                             <p>
                                 Disfruta...
@@ -287,7 +288,7 @@
                     </div>
                     <div class="videos-container">
                         <div class="main-videos-container">
-                            <img src="../assets/vid_img.jpg" alt="italia-imagen"/>
+                            <img src="../assets/vid_img.jpg" alt="italia-imagen" loading="lazy"/>
                             <h1>Ennio Morricone Concierto</h1>
                             <p>
                                 Disfruta...
@@ -301,7 +302,7 @@
                     </div>
                     <div class="videos-container">
                         <div class="main-videos-container">
-                            <img src="../assets/vid_img.jpg" alt="italia-imagen"/>
+                            <img src="../assets/vid_img.jpg" alt="italia-imagen" loading="lazy"/>
                             <h1>La Dolce Vita</h1>
                             <p>
                                 Disfruta...
@@ -310,14 +311,17 @@
                         </div>
                         <div class="trailer-container active">
                             <video src="../assets/art_vid3.mp4" controls="true"></video>
-                            <i class="bi bi-x-octagon close-icon"></i>
+                            <i class="bi bi-x-circle-fill close-icon"></i>
                         </div>
                     </div>
                 </section>
+                <div><h1 class="padd">!!!!!!</h1></div>
             </div>
         </main>
     </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./arte.js"></script>
     <script src="./videos.js"></script>
+    <script src="../scroll.js"></script>
 </body>
 </html>
